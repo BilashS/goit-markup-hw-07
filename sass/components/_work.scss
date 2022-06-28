@@ -1,0 +1,48 @@
+.work {
+  padding-bottom: 94px;
+}
+
+
+.work__list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+
+}
+
+.work__item {
+  position: relative;
+  z-index: 1;
+
+  &--position {
+      position: absolute;
+
+
+      width: 370px;
+      height: 70px;
+      bottom: 0;
+      left: 0;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: rgba(47, 48, 58, 0.8);
+    }
+
+  &--text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+}
+
+
+
